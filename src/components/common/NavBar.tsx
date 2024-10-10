@@ -38,8 +38,8 @@ function NavBar() {
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in backdrop-blur p-4">
         <div className="flex justify-between mx-4 md:mx-[85px] items-center">
-          <div>
-            {/* <img src="/images/logo.png" alt="logo" /> */}
+          <div className=" flex gap-2">
+            <img src="/images/green_logo.png" alt="logo" className="w-[7rem]" />
             <h1 className=" text-4xl font-bold">Greenspot</h1>
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">

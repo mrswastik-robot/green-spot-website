@@ -14,7 +14,7 @@ function LetMakeThingsHappenSection() {
         </p>
 
         <MainButton
-          text="Get your free proposal"
+          text="Get your free trial"
           classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
         />
       </div>

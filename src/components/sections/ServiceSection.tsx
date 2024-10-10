@@ -70,8 +70,8 @@ export default function ServiceSection() {
           Services
         </div>
         <p className="text-p">
-          At our digital marketing agency, we offer a range of services to help
-          businesses grow and succeed online. These services include:
+          This project of ours is a platform that connects drivers with
+          available parking spaces, saving time and reducing hassle. The servies are:
         </p>
       </div>
 

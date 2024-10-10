@@ -7,7 +7,7 @@ function HeroSection() {
       <div className="md:w-[50%]">
         <p className="text-h1Mobile md:text-h1 text-black font-bold leading-tight">
           Say Goodbye <br /> to circling ... <br />
-          Hello to <span className=" text-[#B9FF66]">Green</span>spot
+          Hello to <span className=" text-[#5FA90D]">Green</span>spot
         </p>
         <div className="block md:hidden my-[35px]">
           <img

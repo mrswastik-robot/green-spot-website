@@ -9,22 +9,28 @@ function TeamSection() {
       position: "CEO and Founder",
       experience:
         "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-      image: "/images/t_1.png",
+      image: "/images/t_11.png",
     },
     {
       name: "Mr. Anand",
       position: "Product Manager",
       experience:
         "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-      image: "/images/t_2.png",
+      image: "/images/t_22.png",
     },
     {
       name: "Mr. Swastik",
       position: "App and Web Developer",
       experience:
-        "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-      image: "/images/t_3.png",
+        "2+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+      image: "/images/t_33.png",
     },
+    {
+      name: "Mrs. Esha Anees",
+      position: "UI & UX Designer",
+      experience: "3+ years of Experience in creating beautiful UIs and have worked with a lot of brands.",
+      image: "/images/t_44.png"
+    }
   ];
   return (
     <section>

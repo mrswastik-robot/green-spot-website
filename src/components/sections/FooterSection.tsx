@@ -14,7 +14,7 @@ function FooterSection() {
     <section className="bg-secondary rounded-t-[45px] p-8 md:p-[60px]">
       <div className="flex flex-col gap-8 md:flex-row justify-between">
         <div>
-          <img src="/images/footer_logo.png" alt="footer logo" />
+          <img src="/images/green_logo_footer.png" alt="footer logo" width={150} height={50} />
         </div>
         {/* <div className="flex flex-col md:flex-row gap-[40px]">
           {links?.map((link, index) => (
