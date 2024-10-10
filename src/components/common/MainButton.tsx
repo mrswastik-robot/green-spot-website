@@ -18,6 +18,7 @@ type MainButtonProps = {
   rightIconClass?: string;
   iconComponent?: ReactElement;
   size?: "small" | "normal" | "large";
+  tallyAttributes?: Record<string, string>; // New prop for Tally attributes
 };
 
 const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
@@ -38,6 +39,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       rightIconClass = "w-[24px] h-[24px]",
       iconComponent,
       size = "normal",
+      tallyAttributes, // Destructure tallyAttributes prop
     },
     ref
   ) => {
@@ -66,6 +68,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
         type={isSubmitable ? "submit" : "button"}
         ref={ref}
         disabled={disabled}
+        {...tallyAttributes} // Spread Tally attributes here
       >
         {iconRoute && (
           <img
@@ -102,7 +105,6 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
   }
 );
 
-// Assigned display name
 MainButton.displayName = "MainButton";
 
 export default MainButton;

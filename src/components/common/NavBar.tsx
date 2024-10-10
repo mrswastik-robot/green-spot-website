@@ -53,7 +53,17 @@ function NavBar() {
             ))} */}
 
             <div className="flex items-center gap-[40px] select-none">
-              <MainButton text="Join the waitlist" />
+              <MainButton
+              text="Join in the waitlist"
+              tallyAttributes={{
+                "data-tally-open": "wQJ48Y",
+                "data-tally-layout": "modal",
+                "data-tally-width": "478",
+                "data-tally-emoji-text": "👋",
+                "data-tally-emoji-animation": "wave",
+                "data-tally-auto-close": "0",
+              }}
+            />
             </div>
           </div>
         </div>

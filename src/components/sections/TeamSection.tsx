@@ -5,24 +5,24 @@ import MainButton from "../common/MainButton";
 function TeamSection() {
   const teams = [
     {
-      name: "Mr. Ankit Thankur",
+      name: "Mr. Ankit Thakur",
       position: "CEO and Founder",
       experience:
-        "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+        "As the Founder, Project Manager, and Lead at Green Spot, my mission is to leverage technology to create smarter, greener cities and contribute to a more sustainable future. I am deeply committed to developing innovative solutions that reduce traffic congestion and minimize carbon emissions, driving positive change in urban environments.",
       image: "/images/t_11.png",
     },
     {
       name: "Mr. Anand",
       position: "Product Manager",
       experience:
-        "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+        "Over 2 years of experience in software development, embedded systems, machine learning algorithms, and project management.",
       image: "/images/t_22.png",
     },
     {
       name: "Mr. Swastik",
       position: "App and Web Developer",
       experience:
-        "2+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+        "2+ years of experience in developing web and mobile applications for various industries, including e-commerce, healthcare, and education. I am working on the development of the Greenspot app, which the end user can use to find and book parking spots.",
       image: "/images/t_33.png",
     },
     {

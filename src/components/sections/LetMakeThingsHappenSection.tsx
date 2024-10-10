@@ -14,9 +14,17 @@ function LetMakeThingsHappenSection() {
         </p>
 
         <MainButton
-          text="Get your free trial"
-          classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
-        />
+            text="Get your free trial"
+            tallyAttributes={{
+              "data-tally-open": "wQJ48Y",
+              "data-tally-layout": "modal",
+              "data-tally-width": "478",
+              "data-tally-emoji-text": "👋",
+              "data-tally-emoji-animation": "wave",
+              "data-tally-auto-close": "0",
+            }}
+            classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
+          />
       </div>
       <div className="absolute -top-8 right-8 hidden md:block">
         <img

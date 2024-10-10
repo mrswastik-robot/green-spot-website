@@ -5,7 +5,7 @@ export default function CaseStudySection() {
   const studies = [
     {
       title:
-        "In cities like Munich and Zurich, drivers spend an average of 17 hours per year searching for parking, contributing to traffic congestion and wasted fuel. Greenspot offers real-time access to available parking spots, reducing search time and cutting down on emissions, improving both traffic flow and air quality.",
+        "In cities like Munich and Berlin, drivers spend an average of 17 hours per year searching for parking, contributing to traffic congestion and wasted fuel. Greenspot offers real-time access to available parking spots, reducing search time and cutting down on emissions, improving both traffic flow and air quality.",
     },
     {
       title:

@@ -24,12 +24,17 @@ function LogoGroupSection() {
         <img
           src="/images/coe_logo.png"
           alt="logo group"
-          className="object-cover saturate-0  w-[300px]"
+          className="object-cover  w-[200px]"
         />
         <img
-          src="/images/enactus_logo.png"
+          src="/images/enactus_germany_logo.svg"
           alt="logo group"
-          className=" object-cover saturate-0 w-[300px]"
+          className=" object-cover w-[200px]"
+        />
+        <img
+          src="/images/enactus_ingolstadt_logo.png"
+          alt="logo group"
+          className=" object-cover w-[220px]"
         />
       </div>
     </section>

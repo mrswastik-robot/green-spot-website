@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
@@ -5,9 +7,25 @@ import { Input } from "../ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import MainButton from "../common/MainButton";
 
+import Head from "next/head";
+import { useEffect } from "react";
+
 function ContactUsSection() {
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://tally.so/widgets/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
+
   return (
     <section className="bg-accent flex justify-between w-full rounded-[45px] relative overflow-x-hidden">
+      <Head>
+        {/* Optionally add the script here as well */}
+        <script async src="https://tally.so/widgets/embed.js"></script>
+      </Head>
+
       <div className="py-[60px] px-8 md:px-[100px] xl:pr-[500px]">
         <div className="flex flex-col md:flex-row gap-8 md:gap-[40px] items-center ">
           <div className="px-2 bg-primary inline-block font-medium text-h2 rounded-md">
@@ -18,19 +36,7 @@ function ContactUsSection() {
           </p>
         </div>
 
-        <div className="mt-[40px]">
-          <div>
-            <RadioGroup defaultValue="comfortable" className="flex">
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem value="say_hi" id="r1" />
-                <Label htmlFor="r1">Say Hi</Label>
-              </div>
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem value="get_a_quote" id="r2" />
-                <Label htmlFor="r2">Get a Qoute</Label>
-              </div>
-            </RadioGroup>
-          </div>
+        {/* <div className="mt-[40px]">
 
           <div className="mt-[25px]">
             <p className="pb-[5px]">Name</p>
@@ -46,17 +52,18 @@ function ContactUsSection() {
             <p className="pb-[5px]">Message*</p>
             <Textarea placeholder="Message" />
           </div>
-        </div>
+        </div> */}
+        <iframe data-tally-src="https://tally.so/embed/3NJPbO?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="484" title="Contact us"></iframe>
 
-        <div className="mt-[40px]">
+        {/* <div className="mt-[40px]">
           <MainButton
             text="Send Message"
             classes="bg-secondary text-white text-[18px] w-full md:w-full hover:text-black"
           />
-        </div>
+        </div> */}
       </div>
       <div className="hidden xl:block absolute top-0 right-[-20rem]">
-        <img src="/images/contact_illustration.png" alt="illustration" />
+        <img src="/images/contact_illustration.png" alt="illustration"  />
       </div>
     </section>
   );
