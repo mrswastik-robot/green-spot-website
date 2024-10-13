@@ -53,7 +53,8 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
         ? "h-[60px]"
         : size === "large"
         ? "h-[68px]"
-        : "h-[50px]";
+        : "h-[40px]";
+        
 
     const variant_hover =
       variant === "primary" ? "hover:bg-primary" : "hover:bg-secondary";

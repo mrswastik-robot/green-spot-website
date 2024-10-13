@@ -78,7 +78,22 @@ function NavBar() {
           <div className="flex gap-[50px] text-[16px] items-center select-none">
             <img src="/images/green_logo.png" alt="logo" className="w-[5rem]" />
           </div>
-          <div className="flex items-center gap-[40px]">
+          <div>
+            <MainButton
+              text="Join in"
+              size="small"
+              width="10"
+              tallyAttributes={{
+                "data-tally-open": "wQJ48Y",
+                "data-tally-layout": "modal",
+                "data-tally-width": "478",
+                "data-tally-emoji-text": "👋",
+                "data-tally-emoji-animation": "wave",
+                "data-tally-auto-close": "0",
+              }}
+            />
+          </div>
+          {/* <div className="flex items-center gap-[40px]">
             {menu ? (
               <X
                 className="cursor-pointer animate-in fade-in zoom-in text-black"
@@ -92,7 +107,7 @@ function NavBar() {
                 onClick={toggleMenu}
               />
             )}
-          </div>
+          </div> */}
         </div>
         {menu ? (
           <div className="my-8 select-none animate-in slide-in-from-right">
