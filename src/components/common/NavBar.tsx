@@ -70,13 +70,13 @@ function NavBar() {
       </div>
       {/* MOBILE */}
       <div
-        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in  ${
+        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in ${
           menu ? " bg-primary py-2" : ""
         } `}
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img src="/images/logo.png" alt="logo" className="w-[7rem]" />
+            <img src="/images/green_logo.png" alt="logo" className="w-[5rem]" />
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (

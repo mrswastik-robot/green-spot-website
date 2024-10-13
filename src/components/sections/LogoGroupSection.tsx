@@ -20,7 +20,7 @@ function LogoGroupSection() {
       <div className="">
         <p className=" text-center font-semibold text-sm">Powered by:</p>
       </div>
-      <div className="w-full flex flex-col md:flex-row mx-auto items-center justify-center gap-[12rem]">
+      <div className="w-full flex flex-col md:flex-row mx-auto items-center justify-center gap-y-5 md:gap-[12rem]">
         <img
           src="/images/coe_logo.png"
           alt="logo group"
@@ -34,7 +34,7 @@ function LogoGroupSection() {
         <img
           src="/images/enactus_ingolstadt_logo.png"
           alt="logo group"
-          className=" object-cover w-[220px]"
+          className=" object-cover w-[200px]"
         />
       </div>
     </section>

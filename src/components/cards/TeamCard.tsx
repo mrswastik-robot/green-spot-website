@@ -1,13 +1,15 @@
 import { Separator } from "../ui/separator";
+import Link from "next/link";
 
 interface IProps {
   name: string;
   position: string;
   experience: string;
   image: string;
+  linkedin: string;
 }
 
-function TeamCard({ name, position, experience, image }: IProps) {
+function TeamCard({ name, position, experience, image, linkedin }: IProps) {
   return (
     <div className="rounded-[45px] p-8 md:p-[31px] border border-secondary border-b-[6px]">
       <div className="flex justify-between">
@@ -22,7 +24,9 @@ function TeamCard({ name, position, experience, image }: IProps) {
         </div>
 
         <div>
-          <img src="/images/linkedin.png" alt="linkedin icon" />
+          <Link href={linkedin} target="_blank">
+            <img src="/images/linkedin.png" alt="linkedin icon" />
+          </Link>
         </div>
       </div>
 

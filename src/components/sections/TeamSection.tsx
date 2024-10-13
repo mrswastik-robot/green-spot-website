@@ -10,6 +10,7 @@ function TeamSection() {
       experience:
         "As the Founder, Project Manager, and Lead at Green Spot, my mission is to leverage technology to create smarter, greener cities and contribute to a more sustainable future. I am deeply committed to developing innovative solutions that reduce traffic congestion and minimize carbon emissions, driving positive change in urban environments.",
       image: "/images/t_11.png",
+      linkedin: "https://www.linkedin.com/in/ankit-thakur-co/"
     },
     {
       name: "Mr. Anand",
@@ -17,6 +18,7 @@ function TeamSection() {
       experience:
         "Over 2 years of experience in software development, embedded systems, machine learning algorithms, and project management.",
       image: "/images/t_22.png",
+      linkedin: "www.linkedin.com/"
     },
     {
       name: "Mr. Swastik",
@@ -24,12 +26,14 @@ function TeamSection() {
       experience:
         "2+ years of experience in developing web and mobile applications for various industries, including e-commerce, healthcare, and education. I am working on the development of the Greenspot app, which the end user can use to find and book parking spots.",
       image: "/images/t_33.png",
+      linkedin: "https://www.linkedin.com/in/swastik-patel-9b1254232/"
     },
     {
-      name: "Mrs. Esha Anees",
+      name: "Esha Anees",
       position: "UI & UX Designer",
-      experience: "3+ years of Experience in creating beautiful UIs and have worked with a lot of brands.",
-      image: "/images/t_44.png"
+      experience: "With 5+ year of UI/UX design experience, I create user-centered digital products, enhacing usability for web and mobile.",
+      image: "/images/t_44.png",
+      linkedin: "https://www.linkedin.com/in/esha-anees/"
     }
   ];
   return (
@@ -39,8 +43,8 @@ function TeamSection() {
           Team
         </div>
         <p className="text-p">
-          Meet the skilled and experienced team behind our successful digital
-          marketing strategies
+          Meet our small but talented team of experts who are passionate about
+          creating innovative solutions to make our world a better place.
         </p>
       </div>
 

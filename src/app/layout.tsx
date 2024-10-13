@@ -3,8 +3,8 @@ import { Space_Grotesk } from "next/font/google"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Positivus',
-  description: 'You goto place for anything digital',
+  title: 'Greenspot',
+  description: 'Stop circling and use Greenspot',
 }
 
 const spaceGrotesk = Space_Grotesk({subsets: ["latin"], weight: ["300", "400", "500", "600",  "700"]})
